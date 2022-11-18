@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+li {
+      font-size: 2em;
+      background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+      -webkit-background-clip: text;
+      margin-top: 20px;
+      -webkit-text-fill-color: transparent;
+      padding: 0.3em 0.6em ;
+      border: 3px solid transparent;
+      border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+      border-image-slice: 1;
+      color: white;
+      font-size: 30px;
+    }
